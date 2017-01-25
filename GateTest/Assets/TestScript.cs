@@ -7,6 +7,7 @@ public class TestScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         touched = true;
+        print("Trigger Touched");
     }
 	// Use this for initialization
 	void Start ()
@@ -17,6 +18,9 @@ public class TestScript : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-	
+	    if(touched == true)
+        {
+            print("true");
+        }
 	}
 }
