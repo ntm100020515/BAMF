@@ -2,27 +2,23 @@
 using System.Collections;
 using System;
 
-public class TestOne : MonoBehaviour
+public class TurnOff : MonoBehaviour
 {
-    public bool onoff = false;
-    
-    
+    public Toucher ts1;
 
 	// Use this for initialization
 	void Start ()
     {
-        gameObject.SetActive(true);
+       
 	}
 	
 	// Update is called once per frame
 	void Update ()
-    {        
-        
-        if(onoff == true)
+    {
+        if (ts1.touched == true)
         {
             gameObject.SetActive(false);
+            print("Helloooo");
         }
-
-
     }
 }

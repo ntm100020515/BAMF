@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TestScript : MonoBehaviour
+public class Toucher : MonoBehaviour
 {
     public bool touched = false;
     void OnTriggerEnter2D(Collider2D other)
@@ -18,9 +18,6 @@ public class TestScript : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-	    if(touched == true)
-        {
-            print("true");
-        }
+	    
 	}
 }
