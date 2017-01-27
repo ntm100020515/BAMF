@@ -7,7 +7,7 @@ public class Toucher : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         touched = true;
-        print("Trigger Touched");
+        
     }
 	// Use this for initialization
 	void Start ()

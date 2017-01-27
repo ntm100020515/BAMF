@@ -18,7 +18,7 @@ public class TurnOff : MonoBehaviour
         if (ts1.touched == true)
         {
             gameObject.SetActive(false);
-            print("Helloooo");
+            
         }
     }
 }
